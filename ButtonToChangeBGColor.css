@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+}
+h3{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
+}
+.headline{
+    color: white;
+}
+.btn{
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
